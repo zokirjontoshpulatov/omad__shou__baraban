@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+
+    
+
+
+}
+
+.svg__container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* background-color: teal; */
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #DDDD;
+    border: none;
+    border-radius: 15px;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+    
+
+
+
+
+@keyframes wheel {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+
